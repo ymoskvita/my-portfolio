@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Yulia Moskvita</h1>
+        <img src="images/yulia-min.png" alt="">
+        <p>Hi, my name is Yulia Moskvita and I'm a frontend developer. Welcome to my personal website!</p>
+        <ul class="socials">
+            <li class="socials__item">
+                <a class="socials__link" href="">
+                    <svg class="socials__icon" width="44" height="44">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials__item">
+                <a class="socials__link" href="">
+                    <svg class="socials__icon" width="44" height="44">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials__item">
+                <a class="socials__link" href="">
+                    <svg class="socials__icon" width="44" height="44">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="socials__item">
+                <a class="socials__link" href="">
+                    <svg class="socials__icon" width="44" height="44">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <nav>
+            <a href="index.html" >
+                <svg class="socials__icon" width="44" height="44">
+                    <use href="images/icons.svg#icon-person"></use>
+                </svg>
+                About me
+            </a>
+            <a href="portfolio.html">
+                <svg class="socials__icon" width="44" height="44">
+                    <use href="images/icons2.svg#icon-laptop"></use>
+                </svg>
+                Portfolio
+            </a>
+            <a href="contact.html" class="selected">
+                <svg class="socials__icon" width="44" height="44">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                Contact
+            </a>
+        </nav>
+        <a class="button-hire-me" href="contact.html">
+            <svg class="socials__icon" width="44" height="44">
+                <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+            Hire me
+        </a>
+    </header>
+    <div>
+        <section class="about-me-portfolio">
+            <h2>Contact</h2>
+            <p>Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an
+            email to
+            <a class="email" href="mailto:ymoskvita@gmail.com">ymoskvita@gmail.com</a></p>
+            <p>Want to get connected? Follow me on the social channels below.</p>
+            <ul class="socials-contact">
+                <li class="socials__item">
+                    <a class="socials__link-contact" href="">
+                        <svg class="socials__icon" width="44" height="44">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link-contact" href="">
+                        <svg class="socials__icon" width="44" height="44">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link-contact" href="">
+                        <svg class="socials__icon" width="44" height="44">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials__item">
+                    <a class="socials__link-contact" href="">
+                        <svg class="socials__icon" width="44" height="44">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="contact-form">
+            <h2>Get In Touch</h2>
+            <form action="https://formspree.io/f/xnqrzzbg" method="post">
+                <div class="form-item">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" />
+                </div>
+                <div class="form-item">
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="email" placeholder="Email" />
+                </div>
+                <div class="form-item">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="button-hire-me">
+                    <svg class="socials__icon" width="44" height="44">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                    Send now
+                </button>
+            </form>
+        </section>
+        <footer> &copy She Codes 2022</footer>
+    </div>
+</body>
+</html>
