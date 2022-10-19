@@ -178,6 +178,7 @@ nav a:hover {
 }
 .form-item {
   margin: 10px 0;
+  width: 100%;
 }
 textarea,
 input {
@@ -354,7 +355,7 @@ footer {
   form {
     width: 500px;
   }
-  .form-item {
-    width: 100%;
-  }
+}
+.show {
+  display: block;
 }
